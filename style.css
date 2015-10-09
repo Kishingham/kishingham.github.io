@@ -1,0 +1,105 @@
+h1 {
+	text-align: center;
+	font-family: "VT323";
+}
+
+h2 {
+	text-align: center;
+	font-family: "Raleway";
+}
+
+h3 {
+	text-align: center;
+	font-family: "Raleway";
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+div {
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	background-color: rgb(255,205,52);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgb(0,89,77);
+}
+
+ol {
+	text-align: center;
+
+}
+nav ol, nav li {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+li{
+	padding:1px;
+	margin-left:0px;
+}
+
+
+nav a {
+	display: inline-block;
+	width: 100px;
+	border: 1px solid lightgray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgb(0,89,77);
+	color: rgb(255,205,52);
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav li a:hover {
+  color: rgb(0,89,77);
+  background-color: rgb(255,205,52);
+}
+
+pre{
+	font-family: "Times New Roman", Times, serif;
+}
+
+img
+{
+    padding:10px 10px;
+    text-align:center;
+    border: 4px solid rgb(0,89,77);
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+
+
+.pic {
+    text-align:center;
+ 
+}
+
+form input {
+	margin-left: 10px;
+}
+
+form {
+	border-top: 1px solid rgb(0,89,77);
+}
+
+body
+{
+	background-color: rgb(255,205,52);
+	background-image: url(siena.jpg);
+}
+	
+footer {
+	text-align: right;
+}
